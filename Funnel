@@ -1,0 +1,4 @@
+CuentaSKUporStatus = CALCULATE(COUNTA(Resumen[SKU]);FILTER(ALL('Funnel');'Funnel'[Status N°]>=MIN(Funnel[Status N°])))
+
+
+Link para post PowerBI community: https://community.powerbi.com/t5/Desktop/Cummulative-Measure-for-Funnel/td-p/203025
