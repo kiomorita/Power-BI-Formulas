@@ -1,0 +1,7 @@
+CustomColumn = IF(
+	ISERROR(
+		SEARCH("A", TableName[ColumnName])
+	),
+	"A",
+	"B"
+)
