@@ -1,0 +1,1 @@
+Column = HOUR(Table1[Column1])*60+MINUTE(Table1[Column1])
